@@ -1,0 +1,62 @@
+.show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#buy {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.spec-f {
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal-overlay #modal {
+    max-width: 350px;
+    width: 100%;
+    background: white;
+    height: 400px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#close-modal {
+    position: absolute;
+    right: 10px;
+}
+
+.how-to-by {
+    margin-bottom: 0;
+}
+
+.price {
+    margin-top: 0;
+}
